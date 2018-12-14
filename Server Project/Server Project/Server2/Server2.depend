@@ -1,0 +1,79 @@
+# depslib dependency file v1.0
+1544733150 source:c:\users\strilekn\desktop\server project\include\location.cpp
+	"../include/Location.h"
+	"string.h"
+	<iostream>
+
+1544731694 c:\users\strilekn\desktop\server project\include\location.h
+	<iostream>
+
+1544731212 source:c:\users\strilekn\desktop\server project\include\locationinterpretation.cpp
+	"../include/LocationInterpretation.h"
+
+1544731212 c:\users\strilekn\desktop\server project\include\locationinterpretation.h
+	<map>
+	"Location.h"
+
+1544731212 source:c:\users\strilekn\desktop\server project\include\locationlist.cpp
+	"../include/LocationList.h"
+	"../include/Location.h"
+	<iostream>
+	<fstream>
+	<string>
+	<map>
+
+1544731212 c:\users\strilekn\desktop\server project\include\locationlist.h
+	<map>
+	"Location.h"
+
+1544733090 source:c:\users\strilekn\desktop\server project\server2.cpp
+	"SERVER.h"
+	<vector>
+	"include/Location.h"
+
+1544471044 c:\users\strilekn\desktop\server project\server.h
+	<conio.h>
+	<stdio.h>
+	<winsock2.h>
+	<windows.h>
+	<iostream>
+
+1544750162 source:d:\d documents\educational projects\redesign game\server project\server project\include\location.cpp
+	"../include/Location.h"
+	"string.h"
+	<iostream>
+
+1544733620 d:\d documents\educational projects\redesign game\server project\server project\include\location.h
+	<iostream>
+
+1544733620 source:d:\d documents\educational projects\redesign game\server project\server project\include\locationinterpretation.cpp
+	"../include/LocationInterpretation.h"
+
+1544733621 d:\d documents\educational projects\redesign game\server project\server project\include\locationinterpretation.h
+	<map>
+	"Location.h"
+
+1544733621 source:d:\d documents\educational projects\redesign game\server project\server project\include\locationlist.cpp
+	"../include/LocationList.h"
+	"../include/Location.h"
+	<iostream>
+	<fstream>
+	<string>
+	<map>
+
+1544733621 d:\d documents\educational projects\redesign game\server project\server project\include\locationlist.h
+	<map>
+	"Location.h"
+
+1544750090 source:d:\d documents\educational projects\redesign game\server project\server project\server2.cpp
+	"SERVER.h"
+	<vector>
+	"include/Location.h"
+
+1544733620 d:\d documents\educational projects\redesign game\server project\server project\server.h
+	<conio.h>
+	<stdio.h>
+	<winsock2.h>
+	<windows.h>
+	<iostream>
+
