@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1540415826 source:d:\d documents\educational projects\redesign game\red - forms\framesection\main.cpp
+	<tchar.h>
+	<windows.h>
+	"MenuMaker.h"
+	<iostream>
+	<stdlib.h>
+
+1540302367 d:\d documents\educational projects\redesign game\red - forms\framesection\include\menumaker.h
+	<windows.h>
+
+1540415402 source:d:\d documents\educational projects\redesign game\red - forms\framesection\src\menumaker.cpp
+	"MenuMaker.h"
+	<windef.h>
+	<iostream>
+

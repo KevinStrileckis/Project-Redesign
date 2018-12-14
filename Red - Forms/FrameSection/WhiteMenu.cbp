@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="FrameSection" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/FrameSection" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/FrameSection" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Linker>
+			<Add option="-lwininet" />
+			<Add library="gdi32" />
+			<Add library="user32" />
+			<Add library="kernel32" />
+			<Add library="comctl32" />
+		</Linker>
+		<Unit filename="../../Red/include/Location.h" />
+		<Unit filename="../../Red/include/LocationInterpretation.h" />
+		<Unit filename="../../Red/include/LocationList.h" />
+		<Unit filename="../../Red/src/Location.cpp" />
+		<Unit filename="../../Red/src/LocationInterpretation.cpp" />
+		<Unit filename="../../Red/src/LocationList.cpp" />
+		<Unit filename="../../src/RedClient.cpp" />
+		<Unit filename="include/MenuMaker.h" />
+		<Unit filename="include/RedClient.h" />
+		<Unit filename="include/httprip.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/MenuMaker.cpp" />
+		<Unit filename="src/httprip.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

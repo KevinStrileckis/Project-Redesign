@@ -1,0 +1,89 @@
+# depslib dependency file v1.0
+1544749327 source:d:\d documents\educational projects\redesign game\red - forms\framesection\src\menumaker.cpp
+	"MenuMaker.h"
+	<windef.h>
+	<iostream>
+	"../include/httprip.h"
+
+1544730189 d:\d documents\educational projects\redesign game\red - forms\framesection\include\menumaker.h
+	<windows.h>
+	"../include/RedClient.h"
+
+1544730318 source:d:\d documents\educational projects\redesign game\red - forms\framesection\main.cpp
+	<tchar.h>
+	<windows.h>
+	"MenuMaker.h"
+	"RedClient.h"
+	<iostream>
+	<stdlib.h>
+	"include/httprip.h"
+	<map>
+	"../../Red/include/LocationList.h"
+	<vector>
+
+1542639891 source:d:\d documents\educational projects\redesign game\red\src\location.cpp
+	"../include/Location.h"
+
+1539005321 d:\d documents\educational projects\redesign game\red\include\location.h
+	<iostream>
+
+1542639901 source:d:\d documents\educational projects\redesign game\red\src\locationinterpretation.cpp
+	"../include/LocationInterpretation.h"
+
+1542638848 d:\d documents\educational projects\redesign game\red\include\locationinterpretation.h
+	<map>
+	"Location.h"
+
+1542643974 source:d:\d documents\educational projects\redesign game\red\src\locationlist.cpp
+	"../include/LocationList.h"
+	"../include/Location.h"
+	<iostream>
+	<fstream>
+	<string>
+	<map>
+
+1542637590 d:\d documents\educational projects\redesign game\red\include\locationlist.h
+	<map>
+	"Location.h"
+
+1542641394 source:d:\d documents\educational projects\redesign game\red - forms\framesection\src\httpripper.cpp
+	<windows.h>
+	<wininet.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<fstream>
+	<iostream>
+	<winsock.h>
+	<shellapi.h>
+	<mmsystem.h>
+
+1542644490 source:d:\d documents\educational projects\redesign game\red - forms\framesection\src\httprip.cpp
+	"../include/httprip.h"
+	<windows.h>
+	<wininet.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<fstream>
+	<iostream>
+	<winsock.h>
+	<shellapi.h>
+	<mmsystem.h>
+
+1542641514 d:\d documents\educational projects\redesign game\red - forms\framesection\include\httprip.h
+	<iostream>
+
+1544744858 source:d:\d documents\educational projects\redesign game\src\redclient.cpp
+	"RedClient.h"
+	<string>
+
+1544744646 d:\d documents\educational projects\redesign game\red - forms\framesection\include\redclient.h
+	<winsock2.h>
+	<windows.h>
+	<iostream>
+	<string>
+
+1544645173 d:\d documents\educational projects\redesign game\red - forms\framesection\include\clientstorage.h
+	"RedClient.h"
+
